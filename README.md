@@ -83,7 +83,7 @@ Successfully tagged localhost/htmlapplication:latest
 > Use the command "buildah images" to view the newly created IMAGE
 ```
 REPOSITORY                TAG          IMAGE ID       CREATED          SIZE
-localhost/htmlapp         latest       33c125dd4286   10 seconds ago   62.7 MB
+localhost/htmlapplication latest       33c125dd4286   10 seconds ago   62.7 MB
 docker.io/library/httpd   2.4-alpine   294cecd6c779   7 weeks ago      60.5 MB
 ```
 
