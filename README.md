@@ -22,8 +22,15 @@ sudo apt-key add - < Release.key
 sudo apt-get update -qq
 sudo apt-get -qq -y install buildah
 ```
-> To check the version after installation
+> To check the version after buildah installation
 ```
 buildah --version
 buildah version 1.21.3 (image-spec 1.0.1-dev, runtime-spec 1.0.2-dev)
+```
+
+> You can use the command "buildah images" to view the images
+```
+#buildah images
+REPOSITORY                TAG          IMAGE ID       CREATED         SIZE
+#
 ```
